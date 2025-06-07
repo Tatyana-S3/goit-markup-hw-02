@@ -1,24 +1,27 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
-  h2 {
-    font-size: 36px;
-    font-weight: 700;
-  }
-  h3 {
-    font-size: 20px;
-    font-weight: 500;
-  }
-  p {
-    color: #434455;
-  }
-  ul {
-    list-style-type: none;
-  }
+  letter-spacing: 0.02em;
 }
+body h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+body h3 {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+ul {
+  list-style-type: none;
+}
+
 .link,
 .logo {
   text-decoration: none;
@@ -26,23 +29,26 @@ body {
 }
 .link:hover,
 .link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .logo {
+  color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
-.accent-web {
-  color: #4d5ae5;
+.accent-header {
+  color: #2e2f42;
 }
 .site-nav a {
-  font-size: 500;
+  letter-spacing: 0.02em;
+  font-weight: 500;
 }
-.site-cnts a {
+.cnts a {
   color: #434455;
   font-size: 400;
   font-style: normal;
@@ -50,33 +56,47 @@ body {
 .hero {
   background-color: #2e2f42;
   color: #ffffff;
+}
+.hidden-hero {
+  line-height: 1.07;
   font-weight: 700;
   font-size: 56px;
+  text-align: center;
 }
+
 .btn-hero {
   background-color: #4d5ae5;
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
   font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .btn-hero:hover,
 .btn-hero:focus {
   background-color: #404bbf;
 }
+
 .our-team {
   background-color: #f4f4fd;
+}
+.our-team h3,
+.our-team p {
+  background-color: #ffffff;
 }
 .portfolio {
   line-height: 1.11111;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
-.accent-studio {
+.accent-footer {
   color: #f4f4fd;
 }
 .page-footer {
   background-color: #2e2f42;
 }
-.page-footer .text {
+.page-footer .text-footer {
   color: #f4f4fd;
 }
