@@ -7,16 +7,19 @@ body {
   letter-spacing: 0.02em;
 }
 body h2 {
+  color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 body h3 {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 ul {
   list-style-type: none;
@@ -45,10 +48,11 @@ ul {
   color: #2e2f42;
 }
 .site-nav a {
+  color: #2e2f42;
   letter-spacing: 0.02em;
   font-weight: 500;
 }
-.cnts a {
+.cnts {
   color: #434455;
   font-size: 400;
   font-style: normal;
@@ -62,6 +66,7 @@ ul {
   font-weight: 700;
   font-size: 56px;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .btn-hero {
@@ -83,8 +88,7 @@ ul {
 .our-team {
   background-color: #f4f4fd;
 }
-.our-team h3,
-.our-team p {
+.box {
   background-color: #ffffff;
 }
 .portfolio {
